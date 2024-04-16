@@ -19,4 +19,4 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Execute builder script
-      run: ./build.sh
+      run: pwd #./build.sh
